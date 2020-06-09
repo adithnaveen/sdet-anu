@@ -1,0 +1,7 @@
+package trainer.basics;
+
+public class BasicWorks {
+	public static void main(String[] args) {
+		
+	}
+}

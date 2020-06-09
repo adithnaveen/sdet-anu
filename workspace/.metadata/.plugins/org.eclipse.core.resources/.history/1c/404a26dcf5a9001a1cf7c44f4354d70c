@@ -1,0 +1,8 @@
+package trainer.basics;
+
+// 1. package which will be first line and only once 
+
+
+public class HelloWorld {
+
+}
