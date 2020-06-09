@@ -1,0 +1,120 @@
+Need to write automation code 
+good to start from scratch 
+selenium 
+cucumber 
+selenium + cucumer 
+github 
+(selenium + cucumber) + jenkins 
+
+Time 
+18 - 20 
+
+
+Java, .Net, Python, JavaScript (Protractor) anugular web site 
+
+API - Application Program Interface 
+
+Tosca 
+RPA 
+UI Path 
+BluePrism 
+ 
+ 
+ 
+ 
+TDD - Test Driven Development - Junit (Framework)
+BDD - Behvioural Driven Development - Cucumber - Stake Holder 
+DDD - Domain Driven Development - Concept 
+
+ 
+Selenium.dev
+cucumber.io 
+apache.poi.com 
+mysql.com 
+
+Maven 
+ 
+Java (Oracle) 1.8 free - OpenJava (Community) google, ibm, microsoft, Facebook 
+
+Every 6 Months there is new java relase 
+Mar - Sep 
+Java 14 
+
+
+https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+
+https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2020-03/R/eclipse-inst-mac64.dmg
+
+Windows 
+https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2020-03/R/eclipse-jee-2020-03-R-incubation-win32-x86_64.zip
+
+JDK - Developers, huge, compile, generate documentation, memory space occupied 
+
+JRE - Users, lite, execute, jvm, is an instance of JDK , 
+
+c:\programfiles\java\jdk1.8_121\
+
+
+
+
+IDE - Integrated Development Environment 
+Eclipse - E, G, H, I, J, K, L, M, N, O, P - Month-Year 
+IntelliJ Idea 
+Visual Code 
+BlueJ 
+NetBeans 
+
+public class Hello {
+}
+
+
+Practice Good Naming Convension 
+
+packages - all in lower case seperated with .(dot) 
+
+Class - Pascal Case - First char of the word i upper case 
+
+Method - camel Case - first char is in lower case next words first char in upper case 
+
+Variable - camel Case - first char is in lower case next words first char in upper case 
+
+Constant  - all in upper case 
+
+com.
+org.
+
+
+
+if 
+while
+for
+switch 
+
+1. write a program to initialize the variable with value 100; 
+using if condition check if the 
+
+number is less than 30 then print "fail"
+number between 31 and 60 then "Pass"
+number is more than 60 then "Distinction"
+
+2. accept a number anywhere between 1 - 12 (switch case)
+	if the number is 1 then Jan 
+	if the number is 2 then Feb
+	if the number is 3 then Mar
+.... 
+	if the number is 12 then Dec
+
+
+1. GitHub Link source code (Program)
+2. Drive Link 
+	Images 
+	Notes 
+	ppt 
+	videos 
+
+
+
+
+ 
+ 
+
