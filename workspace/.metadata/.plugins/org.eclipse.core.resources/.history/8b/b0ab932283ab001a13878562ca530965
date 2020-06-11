@@ -1,0 +1,7 @@
+package training.day2;
+
+public class EmployeeImpl {
+	public static void main(String[] args) {
+		
+	}
+}

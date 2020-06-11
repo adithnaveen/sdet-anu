@@ -1,0 +1,24 @@
+package training.day2.has;
+
+public class Client {
+	public static void main(String[] args) {
+		
+		Customer cust = new Customer(); 
+		
+		cust.setCustId(101);
+		cust.setIncome(2000);
+		
+		Name name  = new Name(); 
+		name.setFirstName("Anu");
+		name.setLastName("Mehta");
+		
+		cust.setName(name);
+		
+		
+		System.out.println("Cust Id : " + cust.getCustId());
+		System.out.println("Cust First Name :" + cust.getName().getFirstName());
+		System.out.println("Cust Last Name : " + cust.getName().getLastName());
+		System.out.println("Cust Income :" + cust.getIncome());
+		
+	}
+}

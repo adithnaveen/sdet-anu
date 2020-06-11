@@ -1,0 +1,6 @@
+package training.day2.has;
+
+public class Name {
+	private String firstName; 
+	private String lastName; 
+}

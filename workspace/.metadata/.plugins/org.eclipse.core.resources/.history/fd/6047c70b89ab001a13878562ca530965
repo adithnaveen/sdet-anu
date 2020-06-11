@@ -1,0 +1,9 @@
+package training.day2.has;
+
+public class Student {
+	private int studentId; 
+	private int marks; 
+	private Name name; 
+	
+	
+}

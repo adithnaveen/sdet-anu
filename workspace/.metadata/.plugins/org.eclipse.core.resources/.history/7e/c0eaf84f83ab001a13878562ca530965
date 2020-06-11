@@ -1,0 +1,13 @@
+package training.day2;
+
+// client (main/junit/html/mobile) 
+public class EmployeeImpl {
+	public static void main(String[] args) {
+		// is call default constructor 
+		Employee emp = new Employee(); 
+		emp.empId = 101; 
+		emp.empName ="Anu"; 
+		emp.empSal=12345; 
+		
+	}
+}

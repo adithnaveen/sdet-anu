@@ -1,0 +1,13 @@
+package training.day2;
+ 
+public class Employee {
+	private int empId; 
+	private String empName; 
+	private double empSal; 
+	
+	Employee() {
+	  
+		System.out.println("Object created... ");
+		
+	}
+}

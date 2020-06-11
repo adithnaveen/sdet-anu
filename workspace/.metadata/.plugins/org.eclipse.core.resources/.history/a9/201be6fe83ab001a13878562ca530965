@@ -1,0 +1,22 @@
+package training.day2;
+
+// any class in the world 
+// if you dont extend 
+// then that class will be the 
+// child of Object class 
+public class Employee {
+	int empId; 
+	String empName; 
+	double empSal; 
+	
+	Employee() {
+		// if you have super 
+		// in your constructor 
+		//then this should 
+		// be first statement 
+		super();
+		
+		System.out.println("Object created... ");
+		
+	}
+}

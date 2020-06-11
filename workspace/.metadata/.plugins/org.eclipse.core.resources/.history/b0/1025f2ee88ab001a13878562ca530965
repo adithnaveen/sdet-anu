@@ -1,0 +1,7 @@
+package training.day2.has;
+
+public class Customer {
+	private int custId; 
+	private double income; 
+	private Name name; 
+}

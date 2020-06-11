@@ -1,0 +1,11 @@
+package training.day2;
+
+public class Employee {
+	
+	Employee() {
+		
+	}
+	int empId; 
+	String empName; 
+	double empSal; 
+}

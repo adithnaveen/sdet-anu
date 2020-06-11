@@ -1,0 +1,7 @@
+package training.day2;
+
+public class ArrayEx01 {
+	public static void main(String[] args) {
+		
+	}
+}

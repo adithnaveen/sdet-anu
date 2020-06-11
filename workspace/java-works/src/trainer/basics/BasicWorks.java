@@ -42,11 +42,58 @@ public class BasicWorks {
 		}
 	}
 	
+	// if condition 
 	private static void large3numbers() {
 		int num1 = 100; 
 		int num2 = 20;
 		int num3 = 555; 
 		
+		if(num1 > num2 && num1 > num3) {
+			System.out.println("Num 1 is Largest ");
+		}else if (num2 > num3) {
+			System.out.println("Num2 is largest");
+		}else {
+			System.out.println("Num3 is largest");
+		}
 	}
+
+	// ternary condition 
+	private static void large3numbers_ternary() {
+		int num1 = 100; 
+		int num2 = 20;
+		int num3 = 555; 
+	
+		System.out.println(
+				num1>num2 && num1 > num3 ? "Number 1 Is Large" : 
+				num2>num3?"Number 2 Is Large":
+				"Number 3 Is Large");
+		
+	}
+	
+	
+	// Jan, Mar, May, Jul, Aug, Oct, Dec = 31 
+	// Feb - 29, 28 
+	// other - 30 
+	
+	
+	private static int getTheMonthBasedOnNumber(int month, int year) {
+		switch (month) {
+		case 1:
+		case 3:
+		case 5: 
+		case 7: 
+		case 8: 
+		case 10: 
+		case 12: 
+			return 31; 
+
+		case 2: 
+			return year%4==0 ? 29: 28; 
+		default:
+			return 30; 
+		}
+	}
+	
+	
 	
 }
