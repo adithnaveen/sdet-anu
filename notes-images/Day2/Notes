@@ -1,0 +1,147 @@
+public 
+protected
+private 
+default / package 
+
+
+package com.a; 
+
+class A {
+	public int x; 
+}
+
+class BB {
+	new A().x; 
+}
+
+
+
+
+package com.b; 
+
+class B {
+
+}
+
+
+os 
+int main(){}
+
+even if is void it returns (0)
+void main() {} 
+
+
+String month1 = "Jan"; 
+String month2 = "Feb"; 
+String month3 = "Mar"; 
+.....
+.....
+.....
+String month12 ="Dec"; 
+
+String [] months;   --> it contains null 
+
+months = new String [12]; 
+
+First Fit 
+Best Fit 
+Worst Fit 
+
+
+int *ptr = malloc(10); 
+free(ptr); 
+
+
+
+class MyClass {
+	
+	MyClass (){}
+	
+	~MyClass(){}
+
+}; 
+
+Oops 
+	Encapsulation - Make all your variable with correct access specifiers 
+		private 
+	Polymorphism 
+	Abstraction
+	Inhertance 
+	
+finalize 
+
+
+
+
+// any class in the world 
+// if you dont extend 
+// then that class will be the 
+// child of Object class 
+public class Employee {
+	private int empId; 
+	private String empName; 
+	private double empSal; 
+	
+	Employee() {
+		// if you have super 
+		// in your constructor 
+		//then this should 
+		// be first statement 
+		super();
+		
+		System.out.println("Object created... ");
+		
+	}
+}
+
+
+ public String toString() {
+        return getClass().getName() + "@" + Integer.toHexString(hashCode());
+    }
+
+	
+	public String toString() {
+		return this.empId +", " + this.empName +", " + this.empSal; 
+	}
+
+	
+
+class Employee {
+	private int empId; 
+	private double empSal; 
+	private Name name; 
+}
+
+class Customer {
+	private int custId; 
+	private double custIncome; 
+	private Name name;
+}
+
+class Student {
+	private int studentId; 
+	private int marks; 
+	private Name name;
+}
+
+class Name {
+	private String firstName; 
+	private String middleName; 
+	private String lastName; 
+}
+
+
+
+Please check to have toString in each of the class 
+
+
+
+
+
+
+
+
+
+
+
+
