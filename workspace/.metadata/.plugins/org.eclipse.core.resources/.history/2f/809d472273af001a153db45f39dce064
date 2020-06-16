@@ -1,0 +1,20 @@
+package training.inheritance;
+
+public class Maruti extends FourWheeler {
+	public Maruti() {
+		System.out.println("Maruti Car Created... ");
+	}
+
+	@Override
+	public void move() {
+		System.out.println("Maruti is moving... ");
+	}
+
+	@Override
+	public void stop() {
+		// TODO Auto-generated method stub
+		super.stop();
+	}
+	
+	
+}

@@ -1,0 +1,11 @@
+package training.inheritance;
+
+public class BMW extends FourWheeler{
+	public BMW() {
+		System.out.println("BMW Car created...");
+	}
+	
+	public void move() {
+		System.out.println("BMW is Moving... ");
+	}
+}

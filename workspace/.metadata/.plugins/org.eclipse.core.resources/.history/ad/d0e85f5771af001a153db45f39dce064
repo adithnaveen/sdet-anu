@@ -1,0 +1,8 @@
+package training.inheritance;
+
+public class Vehicle {
+
+	public Vehicle() {
+		System.out.println("Vehicle Created...");
+	}
+}

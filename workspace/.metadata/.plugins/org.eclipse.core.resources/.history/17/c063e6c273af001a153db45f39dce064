@@ -1,0 +1,7 @@
+package training.inheritance;
+
+public class VehicleBL {
+	public void showVehicle(Vehicle vehicle) {
+		
+	}
+}

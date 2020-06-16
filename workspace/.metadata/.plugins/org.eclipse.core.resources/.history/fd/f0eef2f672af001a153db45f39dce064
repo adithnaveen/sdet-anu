@@ -1,0 +1,10 @@
+package training.inheritance;
+
+public class Client1 {
+	public static void main(String[] args) {
+		 
+		Vehicle [] vehicles = new Vehicle[5]; 
+		
+ 
+	}
+}

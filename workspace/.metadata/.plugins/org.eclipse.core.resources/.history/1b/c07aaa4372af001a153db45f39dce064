@@ -1,0 +1,12 @@
+package training.inheritance;
+
+public class Vehicle {
+
+	public Vehicle() {
+		System.out.println("Vehicle Created...");
+	}
+	
+	public void move() {
+		System.out.println("Vehicle is moving...");
+	}
+}

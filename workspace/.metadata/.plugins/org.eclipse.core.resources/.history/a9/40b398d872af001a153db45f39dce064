@@ -1,0 +1,8 @@
+package training.inheritance;
+
+public class Client1 {
+	public static void main(String[] args) {
+		BMW bmws[] = new BMW[4]; 
+		
+	}
+}

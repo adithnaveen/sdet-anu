@@ -1,0 +1,55 @@
+when you create a class you can have default constructor (), you also have the choice to 
+have a parametric constructor 
+
+class Employee {
+	private int empId; 
+	private String empName; 
+	
+	
+	Employee(int empId, String empName) {
+		this.empId = empId; 
+		this.empName = empName; 
+	}
+	
+}
+
+Employee emp = new Employee(101, "John"); 
+
+System.out.println("you can do some BL on emp class "); 
+
+
+
+
+
+	
+	Employee(){}
+	
+	// getters and setters 
+	
+
+
+Oops 
+	Encapsulation - Make all your variable with correct access specifiers 
+		private 
+	Inhertance 
+		two or more classes having relation (Parent-Child)
+	Polymorphism 
+		Same object behaving differntly at differnt point of time  
+	Abstraction
+		if you want to hide complex things from the end user 
+		if you dont know how to implement at the super class level 
+		to establish contract (super class methods will not be concrete rather abstract)
+		in your class if you have atleast 1 abstract method then class has to be abstract 
+		and the child have to implemnt/override if not it should be abstract 
+		***** If the class becomes abstract then you cannot create an object of that *****
+		Vehicle v = new Vehicle(); not allowed... 
+		
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+package training.inheritance;
+
+public class VehicleBL {
+	public void showVehicle(Vehicle vehicle) {
+		System.out.println("+++++++++++++++++++");
+		vehicle.move(); 
+		vehicle.stop();
+		
+		((FourWheeler)vehicle).fuelCapacity();
+		
+		((BMW)vehicle).autoSteering(); 
+	}
+}
